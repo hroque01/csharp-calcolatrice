@@ -71,10 +71,42 @@ namespace csharp_calcolatrice
 
             }
         }
+
         //Minimo tra due numeri double
         public static double Minimo(double x, double y)
         {
             if (x < y)
+            {
+                return x;
+
+            }
+            else
+            {
+
+                return y;
+
+            }
+        }
+
+        //Massimo tra due numeri interi
+        public static int Massimo(int x, int y)
+        {
+            if (x > y)
+            {
+                return x;
+
+            }
+            else
+            {
+
+                return y;
+
+            }
+        }
+        //Massimo tra due numeri double
+        public static double Massimo(double x, double y)
+        {
+            if (x > y)
             {
                 return x;
 
